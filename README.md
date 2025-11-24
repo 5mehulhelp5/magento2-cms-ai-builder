@@ -2,11 +2,19 @@
 
 A Magento 2 module that extends the CMS page editor with AI-powered content generation and visual preview capabilities.
 
-![An image of the editor in the Magento admin panel](guides/assets/editor-in-ui.webp)
-
 > [!IMPORTANT]  
 > This does not allow you to change the content in Luma/Hyva/Native Magento theme. Do not expect to just open up a page in the admin panel, generate a result, hit save, and expect to go to your Magento frontend and see what the model generated. This extension generates a new schema property `ai_schema_json` that's available on given page. This schema will need to be converted into an associated Magento template. I don't use Luma/Hyva/Native Magento frontend, so someone else will have to tackle this task.
 > HELP IS WANTED HERE. I WANT TO SUPPORT THIS, BUT I DONT HAVE THE TIME TO BUILD THIS.
+
+![An image of the editor in the Magento admin panel](guides/assets/editor-in-ui.webp)
+
+<p align="center">
+  <a href="https://www.daff.io/"><strong>daff.io</strong></a>
+  | 
+  <a href="https://www.youtube.com/watch?v=LcudrwsT_gk"><strong>Youtube Demo</strong></a>
+  | 
+  <a href="https://www.youtube.com/watch?v=LcudrwsT_gk"><strong>Daffodil Demo</strong></a>
+</p>
 
 > [!WARNING]
 > **This package is highly experimental and NOT production-ready.**
